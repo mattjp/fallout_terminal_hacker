@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fallout 4 Hacker</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fallout4hacker.css" rel="stylesheet">
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="fallout4hacker.js"></script>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <div class="title">
+        <h1>~~~~</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <table>
+        <tr>
+          <td><input type="text" id="word1"></td>
+          <td><input type="text" id="word2"></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="word3"></td>
+          <td><input type="text" id="word4"></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="word5"></td>
+          <td><input type="text" id="word6"></td>
+        </tr>
+        <tr>
+          <td><input type="text" id="word7"></td>
+          <td><input type="text" id="word8"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container">
+      <p>Guess Number:</p>
+      <p id="guess_num">0</p>
+    </div>
+
+    <div class="container">
+      <p>Number of correct characters:</p>
+      <p id="correct_chars">0</p>
+    </div>
+
+    <div class="container">
+      <button type="button" id="guess_btn" onclick="generate_guess();">Generate Guess!</button>
+    </div>
+
+    <div class="container">
+      <p>Guess this word:</p>
+      <p id="guess_word">?</p>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
